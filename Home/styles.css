@@ -45,7 +45,7 @@ div {
 
 .main {
     text-align: center;
-    font-size: 48px;
+    font-size: 80px;
     color: #faeb8b;
     font-weight: 800;
     width: 50%;
@@ -65,7 +65,7 @@ div {
 
 .second {
     padding: 20px;
-    font-size: 18px;
+    font-size: 30px;
     color: #a77e4d;
 }
 
@@ -87,8 +87,7 @@ div {
     margin: 10px;
 }
 
-.quote {
-    padding: 50px;
+.poema {
     text-align: center;
     background-color: #E5E7EB;
     font-size: 36px;
@@ -96,6 +95,7 @@ div {
     font-weight: 300;
     font-family:'Times New Roman', Times, serif;
     font-style: italic;
+    white-space: pre-line;
 }
 
 .footer {
