@@ -1,0 +1,26 @@
+.header {
+    background-color: #1F2937;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.main {
+    background-color: #1F2937;
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 800;
+}
+
+.second {
+    background-color: #1F2937;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+}
