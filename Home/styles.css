@@ -15,43 +15,48 @@ div {
     font-family: 'Roboto', sans-serif;
 }
 
-.links {
-    padding-left: 20px;
-    color: #faeb8b;
+.container {
+    display: flex;
+    flex-direction: column;
 }
 
 .header {
-    text-align: center;
-    background-color: #f8c179;
-    font-size: 24px;
-    color: #e42214;
-    padding: 10px;
-    text-shadow: 2px 2px 3px rgb(155, 30, 55);
-    border: none;
-    border-bottom: 10px solid #80613b;
+    display: flex;
 }
 
-.home {
-    padding-right: 70%;
-    font-size: 36px;
+.header div {
+    text-align: center;
+    background-color: #D8B875;
+    font-size: 24px;
+    padding-left: 20px;
+    color: #B88F59;
+    padding: 10px;
+    border: none;
+    border-bottom: 10px solid #B88F59;
+    flex: 1;
+}
+
+.mid {
+    flex: 2 1 0;
 }
 
 .cont {
-    background-color: #f8c179;  
+    background-color: #D8B875;  
     display: flex;
     flex-direction: row;
-    gap: 20px;
 }
 
 .main {
+    padding-left: 120px;
     text-align: center;
     font-size: 80px;
-    color: #faeb8b;
+    color: #B88F59;
     font-weight: 800;
     width: 50%;
 }
 
 .princ {
+    text-align: center;
     width: 50%;
 }
 
@@ -64,27 +69,49 @@ div {
 }
 
 .second {
-    padding: 20px;
     font-size: 30px;
     color: #a77e4d;
+    white-space: pre-line;
 }
 
 .third {
     text-align: center;
-    font-family: 'Times New Roman', Times, serif;
-    font-style: italic;
-    font-size: xx-large;
+    font-size: 56px;
     padding: 40px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
 }
 
-.bimages {
+.her {
+    display: flex;
+    flex-direction: row;
+}
+
+.midher {
     width: auto;
-    height: 200px;
+    height: 620px;
+    text-align: top;
     border: 10px;
     border-style: solid;
     border-color: rgb(235, 216, 110);
     border-radius: 10px;
-    margin: 10px;
+}
+
+.subtitle {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 90px;
+    white-space: pre-line;
+}
+
+.bimages {
+    width: auto;
+    height: 300px;
+    border: 10px;
+    border-style: solid;
+    border-color: rgb(235, 216, 110);
+    border-radius: 10px;
 }
 
 .poema {
@@ -96,11 +123,25 @@ div {
     font-family:'Times New Roman', Times, serif;
     font-style: italic;
     white-space: pre-line;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+}
+
+.autor {
+    text-align: right;
+    font-size: 24px;
+    color: #8b8f97;
+    font-weight: 300;
+    font-family:'Times New Roman', Times, serif;
+    font-style: italic;
+    white-space: pre-line;
+    padding-right: 40px;
 }
 
 .footer {
     text-align: center;
-    background-color: #f8c179;
+    background-color: #D8B875;
     font-size: 24px;
     color: #a77e4d;
     padding: 20px;
