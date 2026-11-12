@@ -1,150 +1,209 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .container {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .header {
-    display: flex;
+  display: flex;
 }
 
 .header div {
-    text-align: center;
-    background-color: #D8B875;
-    font-size: 24px;
-    padding-left: 20px;
-    color: #66513B;
-    padding: 10px;
-    border: none;
-    border-bottom: 10px solid #B88F59;
-    flex: 1;
-}
-
-.mid {
-    flex: 2 1 0;
+  text-align: center;
+  background-color: #d8b875;
+  font-size: 24px;
+  padding-left: 20px;
+  color: #66513b;
+  padding: 10px;
+  border: none;
+  border-bottom: 10px solid #b88f59;
+  flex: 1;
 }
 
 .cont {
-    background-color: #D8B875;  
-    display: flex;
-    flex-direction: row;
+  background-color: #d8b875;
+  display: flex;
+  flex-direction: row;
+  position: relative;
 }
 
-.cont div {
-    display: flex;
-    flex: 1;
+.cont > .maintxt,
+.cont > .imgshe {
+  display: flex;
+  flex: 1;
 }
 
 .ramo1 {
-    display: flex;
+  display: flex;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.ramosimg {
+  width: 100%;
+  height: auto;
+  transform: rotate(-10deg);
+}
+
+.ramosimg2 {
+  display: none;
 }
 
 .maintxt {
-    text-align: center;
-    font-size: 80px;
-    color: #66513B;
-    font-weight: 800;
-    flex-direction: column;
+  text-align: center;
+  font-size: 80px;
+  color: #66513b;
+  font-weight: 800;
+  flex-direction: column;
+  margin-left: 160px;
+  transform: translateY(10%);
 }
 
 .second {
-    text-align: center;
-    font-size: 24px;
-    color: #66513B;
-    white-space: pre-line;
+  text-align: center;
+  font-size: 32px;
+  color: #66513b;
+  white-space: pre-line;
 }
 
 .imgshe {
-    justify-content: center;
-    align-items: center;
-    flex: 1;
+  justify-content: center;
+  align-items: center;
+  transform: translateX(-2%);
+  flex: 1;
 }
 
 .she {
-    width: auto;
-    height: 620px;
-    border-radius: 20px;
+  width: 80%;
+  height: auto;
+  border-radius: 20px;
+  margin-bottom: 10px;
 }
 
 .third {
-    background-color: #FFF9F0;
-    text-align: center;
-    font-size: 56px;
-    padding: 40px;
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
+  background-color: #fff9f0;
+  text-align: center;
+  font-size: 56px;
+  padding: 40px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
 }
 
 .her {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
 .midher {
-    width: auto;
-    height: 620px;
-    text-align: top;
-    border: 10px;
-    border-style: solid;
-    border-color: #B88F59;
-    border-radius: 10px;
+  width: auto;
+  height: 620px;
+  text-align: top;
+  border: 10px;
+  border-style: solid;
+  border-color: #b88f59;
+  border-radius: 10px;
 }
 
 .subtitle {
-    font-family: 'Times New Roman', Times, serif;
-    font-style: italic;
-    font-size: 90px;
-    white-space: pre-line;
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  font-size: 90px;
+  white-space: pre-line;
+  transform: translateY(20%);
 }
 
 .bimages {
-    width: auto;
-    height: 300px;
-    border: 10px;
-    border-style: solid;
-    border-color: #B88F59;
-    border-radius: 10px;
+  width: auto;
+  height: 300px;
+  border: 10px;
+  border-style: solid;
+  border-color: #b88f59;
+  border-radius: 10px;
 }
 
 .poema {
-    text-align: center;
-    background-color: #F5EBD9;
-    font-size: 36px;
-    color: #66513B;
-    font-weight: 300;
-    font-family:'Times New Roman', Times, serif;
-    font-style: italic;
-    white-space: pre-line;
-    padding-left: 40px;
-    padding-right: 40px;
+  text-align: center;
+  background-color: #f5ebd9;
+  font-size: 36px;
+  color: #66513b;
+  font-weight: 300;
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  white-space: pre-line;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
-
 .autor {
-    text-align: right;
-    font-size: 24px;
-    color: #8b8f97;
-    font-weight: 300;
-    font-family:'Times New Roman', Times, serif;
-    font-style: italic;
-    white-space: pre-line;
-    padding-right: 40px;
+  text-align: right;
+  font-size: 24px;
+  color: #8b8f97;
+  font-weight: 300;
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  white-space: pre-line;
+  padding-right: 40px;
 }
 
 .footer {
-    text-align: center;
-    background-color: #D8B875;
+  text-align: center;
+  background-color: #d8b875;
+  font-size: 24px;
+  color: #66513b;
+  padding: 20px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+  .cont {
+    flex-direction: column;
+    padding-bottom: 5%;
+  }
+  .ramosimg {
+    display: none;
+  }
+  .maintxt {
+    font-size: 48px;
+    margin-left: 0;
+    margin-bottom: 12%;
+    letter-spacing: 0.5px;
+  }
+  .second {
     font-size: 24px;
-    color: #66513B;
-    padding: 20px;
+  }
+  .imgshe {
+    transform: translateX(0);
+  }
+  .she {
+    width: 95%;
+    height: auto;
+  }
+  .subtitle {
+    transform: translateY(-5%);
+  }
+  .bimages {
+    width: 100%;
+    height: auto;
+  }
+  .third {
+    flex-direction: column;
+  }
+  .her {
+    flex-direction: column;
+    width: 100%;
+  }
 }
