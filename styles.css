@@ -11,6 +11,8 @@ body {
 .container {
   display: flex;
   flex-direction: column;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 .header {
@@ -136,7 +138,7 @@ body {
 .poema {
   text-align: center;
   background-color: #f5ebd9;
-  font-size: 36px;
+  font-size: 48px;
   color: #66513b;
   font-weight: 300;
   font-family: "Times New Roman", Times, serif;
@@ -195,12 +197,21 @@ body {
   .subtitle {
     transform: translateY(-5%);
   }
+  .midher {
+    width: 100%;
+    height: auto;
+  }
   .bimages {
     width: 100%;
     height: auto;
   }
   .third {
     flex-direction: column;
+  }
+  .poema {
+    font-size: xx-large;
+    padding-left: 20px;
+    padding-right: 20px;
   }
   .her {
     flex-direction: column;
