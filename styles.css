@@ -171,6 +171,9 @@ body {
   .container {
     flex-direction: column;
   }
+  .header {
+    flex-direction: column;
+  }
   .cont {
     flex-direction: column;
     padding-bottom: 5%;
@@ -195,6 +198,7 @@ body {
     height: auto;
   }
   .subtitle {
+    font-size: 48px;
     transform: translateY(-5%);
   }
   .midher {
@@ -209,9 +213,12 @@ body {
     flex-direction: column;
   }
   .poema {
-    font-size: xx-large;
+    font-size: large;
     padding-left: 20px;
     padding-right: 20px;
+  }
+  .poem {
+    font-size: medium;
   }
   .her {
     flex-direction: column;
